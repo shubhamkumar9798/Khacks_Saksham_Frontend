@@ -28,10 +28,10 @@
 'use client'
 
 import { Hero } from "@/components/landingpage/hero.jsx"
-import { Teacher } from "@/components/landingpage/teacher.jsx"
-import { Student } from "@/components/landingpage/student.jsx"
-import { MoreInfoModal } from "@/components/landingpage/moreInfo.jsx"
-import { Footer } from "@/components/landingpage/footer.jsx"
+// import { Teacher } from "@/components/landingpage/teacher.jsx"
+// import { Student } from "@/components/landingpage/student.jsx"
+// import { MoreInfoModal } from "@/components/landingpage/moreInfo.jsx"
+// import { Footer } from "@/components/landingpage/footer.jsx"
 import { Button } from '@/components/ui/button'
 import { logout } from '@/lib/redux/slices/authSlice'
 import { useRouter } from 'next/navigation'
@@ -49,11 +49,11 @@ export default function Home() {
 			{/* <Button onClick={handleLogout}>Logout</Button> */}
             {/* <Navbar/> */}
             <Hero status={status}/>
-            <Values/>
+            {/* <Values/>
             <Teacher/>
             <Student/>
             <MoreInfoModal/>
-            <Footer/>
+            <Footer/> */}
 		</div>
 	)
 }

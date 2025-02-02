@@ -6,7 +6,7 @@ import { Navbar } from "@/components/landingpage/navbar.jsx";
 export function Hero({status}){
   return (
     <div className="container mx-auto my-10">
-      <div className="bg-[#fff5f1] px-6 lg:px-16 py-10 rounded-3xl">
+      <div className="bg-purple-100 px-6 lg:px-16 py-10 rounded-3xl">
         {/* Navbar */}
         <Navbar status={status}/>
 
@@ -35,7 +35,7 @@ export function Hero({status}){
 
           {/* Right Image */}
           <Image
-            src="/images/sak127.png"
+            src="/images/code11.png"
             alt="Hero Image"
             width={600}
             height={600}
