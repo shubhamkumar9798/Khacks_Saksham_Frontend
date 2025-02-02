@@ -197,7 +197,7 @@ export function CreatePost({ onPost, domain }) {
   };
 
   return (
-    <div className="p-4 bg-gray-50 rounded-lg shadow bg-[#FFF5EE]">
+    <div className="p-4 bg-purple-100 rounded-lg shadow ">
       <h2 className="text-lg font-semibold mb-2">Create a Post</h2>
 
       {/* Caption Input */}

@@ -248,7 +248,7 @@ const PostItem = ({ post, onRepost }) => {
   };
 
   return (
-    <div className="p-4 bg-white rounded-lg shadow">
+    <div className="p-4 bg-purple-100 rounded-lg shadow">
       <div>
         <p className="font-semibold text-lg">{post.username || "Anonymous"}</p>
         <p className="mt-2">{post.caption}</p>

@@ -102,7 +102,7 @@ const items = [
     icon: Gamepad, // Represents a game
   },
   {
-    title: "My Playlists",
+    title: "Youtube Playlists",
     url: "/student/playlistPage",
     icon: Music, // Represents playlist or music
   },

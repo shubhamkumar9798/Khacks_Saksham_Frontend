@@ -78,7 +78,7 @@ export function CommunitySideCard() {
   } = communityData;
 
   return (
-    <Card className="w-[350px] bg-[#FFF5EE]">
+    <Card className="w-[350px] bg-purple-100">
       <CardHeader>
         <CardTitle>About</CardTitle>
         <CardDescription>{description}</CardDescription>

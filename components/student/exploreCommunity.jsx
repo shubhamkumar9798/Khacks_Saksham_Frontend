@@ -86,16 +86,16 @@ const ExploreCommunity = () => {
               className="bg-purple-100 relative w-full h-72 overflow-hidden rounded-lg shadow-lg"
             >
               {/* Cover Image */}
-              <div className="absolute inset-0">
+              <div className="bg-purple-100 absolute inset-0">
                 <img
                   src={process.env.NEXT_PUBLIC_IMAGE_URL+community.cover_photo} // Fallback to default image
                   alt={`${community.name} Cover`}
-                  className="object-cover w-full h-full"
+                  className="  object-cover w-full h-full"
                 />
               </div>
 
               {/* Avatar and Title */}
-              <CardContent className="relative flex flex-col justify-end items-start h-full p-4 space-y-2 bg-[#FFF5EE]">
+              <CardContent className="relative flex flex-col justify-end items-start h-full p-4 space-y-2 bg-purple-100">
                 <div className="absolute top-4 left-4">
                   <Avatar className="h-16 w-16 border-4 border-white shadow-lg">
                     <AvatarImage src={process.env.NEXT_PUBLIC_IMAGE_URL+community.profile_photo} alt={community.title} />
