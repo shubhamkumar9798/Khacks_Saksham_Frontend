@@ -15,7 +15,7 @@ import { HfInference } from "@huggingface/inference";
 import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
 
-const client = new HfInference("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");
+const client = new HfInference(`${process.env.NEXT_PUBLIC_HUGGING_FACE}`);
 
 export default function ProblemEditorPage() {
   const { id } = useParams();
