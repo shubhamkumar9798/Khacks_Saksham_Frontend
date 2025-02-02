@@ -35,7 +35,7 @@ export function MyCourses({ course }: ExploreCoursesProps) {
 
   return (
     <div className="w-[350px] m-4">
-      <Card className="bg-[#FFF5EE]">
+      <Card className="bg-purple-100">
         <CardHeader>
           <CardTitle>{course.courseName}</CardTitle>
           <CardDescription className="pb-4">Course by {course.courseBy}</CardDescription>
