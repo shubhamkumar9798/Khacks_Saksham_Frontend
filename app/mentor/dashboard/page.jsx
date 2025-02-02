@@ -78,7 +78,7 @@ export default function MentorDashboard() {
       {data.map((section, sectionIndex) => (
         <Card
           key={sectionIndex}
-          className="shadow-xl p-6 bg-purple-100 border border-gray-300 rounded-lg transition-transform hover:scale-105 hover:shadow-2xl"
+          className="shadow-xl p-6 bg-purple-100 border border-gray-300 rounded-lg transition-transform hover:scale-65 hover:shadow-2xl"
         >
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-gray-800">
