@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { X as CloseIcon } from 'lucide-react';
 
-const client = new HfInference('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'); // Replace with your Hugging Face token
+const client = new HfInference(`${process.env.NEXT_PUBLIC_HUGGING_FACE}`); // Replace with your Hugging Face token
 
 export const ChatBot = () => {
   const [messages, setMessages] = useState([]);
