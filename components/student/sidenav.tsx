@@ -67,6 +67,11 @@ const items = [
     icon: Trophy, // Represents competitions or achievements
   },
   {
+    title: "ApprenticeShip",
+    url: "/student/apprenticeship",
+    icon: Trophy, // Represents competitions or achievements
+  },
+  {
     title: "My Courses",
     url: "/student/myCourses",
     icon: Book, // Represents personal courses
@@ -79,6 +84,11 @@ const items = [
   {
     title: "My Events",
     url: "/student/myRegisteredEvents",
+    icon: CalendarCheck, // Represents confirmed events or registrations
+  },
+  {
+    title: "Applied Apprenticeships",
+    url: "/student/myApprenticeship",
     icon: CalendarCheck, // Represents confirmed events or registrations
   },
   {
