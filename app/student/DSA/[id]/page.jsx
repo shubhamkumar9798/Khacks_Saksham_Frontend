@@ -52,7 +52,7 @@ export default function ProblemEditorPage() {
       messages: [
         {
           role: "user",
-          content: `With less words and more data format directly. Analyze the following code for the question \n${problem}. Provide a short and precise analysis in a tabular or key-value format including time complexity and test case evaluations: \n\n${sourceCode}`,
+          content: `With less words and more data format directly. Analyze the following code for the question \n${problem.title} \n${problem.problem_description}. Provide a short and precise analysis in a tabular or key-value format including time complexity and test case evaluations: \n\n${sourceCode}`,
         },
       ],
       provider: "together",
